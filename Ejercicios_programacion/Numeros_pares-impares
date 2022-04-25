@@ -1,0 +1,14 @@
+"""Programa: 
+verificar si un numero es par o impar"""
+
+
+X = int(input("Digite el valor de X: "))
+
+Y = 2*(X)  
+
+if (Y == X % 2 == 0): 
+    msj = ("El numero es par")
+else:
+    msj = ("El numero es impar")
+
+print("El numero: " + str(X) + " es " + msj)
